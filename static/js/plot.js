@@ -3,7 +3,8 @@ var test = "Test";
 console.log(test);
 
 // from data
-const tableData = 'http://localhost:5000/accidents';
+// const tableData = 'http://localhost:5000/accidents';
+const tableData = '/accidents'
 
 d3.json(tableData).then( function(response) {
 
