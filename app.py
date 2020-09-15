@@ -9,7 +9,7 @@ app = Flask(__name__)
 #Define flask routes 
 
 @app.route('/')  ##route to render index.html in heroku
-def home():
+def index():
     return render_template('index.html')
 
 @app.route('/api/info')  #all available APIs
